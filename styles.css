@@ -20,25 +20,49 @@ header {
   align-items: center;
 }
 .nav-links {
-  list-style: none;
+  list-style: none; 
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
+  padding: 0; 
+  margin: 0; 
 }
+
 .nav-links a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
+
+.nav-links a:hover {
+  color: #8d565a; 
+  transform: scale(1.05); 
+}
+
+
 .nav-buttons .btn {
-  margin-left: .5rem;
-  padding: .5rem 1rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1.2rem;
   border: 1px solid #333;
-  background: transparent;
+  background: #e1dedc;
   cursor: pointer;
+  border-radius: 25px; 
+  transition: all 0.3s ease;
 }
+
+
 .btn-primary {
-  background: #333;
-  color: #fff;
+background-color: #333;
+color: #7e7575;
+}
+
+
+.nav-buttons .btn:hover {
+  background: #8d565a; 
+  color: #fff; 
+  transform: scale(1.05); 
+  border-color: #a67c52;
 }
 
 .logo img {
