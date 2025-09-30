@@ -190,6 +190,18 @@ footer {
   color: #555;
 }
 
+.socials a {
+    color: #333;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.socials a:hover {
+    color: #83583a; 
+    transform: translateY(-3px);
+}
+
 
 @media (max-width: 768px) {
   .cards-container {
