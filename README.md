@@ -38,4 +38,4 @@ La página presenta **tarjetas (cards)** con efecto **flip**, que muestran infor
 ## Cómo usar el proyecto  
 1. Clonar el repositorio:  
    ```bash
-   git clone https://github.com/usuario/nombre-del-proyecto.git
+   git clone https://github.com/AntonioBarcel0/Historia-Oculta.git
