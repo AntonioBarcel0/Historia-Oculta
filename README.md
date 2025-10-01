@@ -28,12 +28,14 @@ La página presenta **tarjetas (cards)** con efecto **flip**, que muestran infor
 
 ##  Vista previa  
 <div align="center">
-  <img src="" alt="" width=""/>
+  <img src="https://res.cloudinary.com/dc4u0bzgh/image/upload/v1759310625/cabecera_fypi6v.png" alt="cabecera" width="800"/>
 </div>
 <div align="center">
-  <img src="" alt="" width=""/>
+  <img src="https://res.cloudinary.com/dc4u0bzgh/image/upload/v1759310625/card1_bgcxxw.png" alt="tarjetas info" width="800"/>
 </div>
-
+<div align="center">
+  <img src="https://res.cloudinary.com/dc4u0bzgh/image/upload/v1759310625/alert_zwqxdp.png" alt="bienvenida" width="500"/>
+</div>
 
 ## Cómo usar el proyecto  
 1. Clonar el repositorio:  
