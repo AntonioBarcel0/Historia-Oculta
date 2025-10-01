@@ -256,3 +256,52 @@ footer {
 
 
 }
+
+.overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.5);
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .popup {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+
+    .overlay:target {
+      display: flex;
+    }
+
+
+    .cerrar {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 8px 12px;
+      background: rgb(225, 221, 197);
+      color: rgb(84, 81, 81);
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+
+    a {
+      text-decoration: none;
+      display: flex;
+      margin-left: 30px;
+}
+
+
+    .cerrar:hover {
+      background: rgb(188, 198, 164);
+    }
+
